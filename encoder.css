@@ -1,0 +1,10 @@
+#encoder {
+    margin-top: 50px;
+    font-size: .8em;
+}
+#encoderSlider {
+    width: 100%;
+}
+.encoderLimitSwitch {
+    color: red;
+}
