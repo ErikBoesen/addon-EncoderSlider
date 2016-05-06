@@ -44,9 +44,9 @@
 
 // Add this at the bottom of ui.js with the other listeners.
 
-ui.encoder.slider.addEventListener('click', function() {
-    // Get value of slider and send to NetworkTables
+// Get value of encoder slider when it's adjusted
+ui.encoder.slider.onclick = function() {
 	NetworkTables.setValue('/SmartDashboard/Arm | Middle', parseInt(ui.encoder.slider.value));
-});
+};
 
 // End section
